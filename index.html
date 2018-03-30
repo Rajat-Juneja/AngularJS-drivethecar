@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="Js/angular.min.js"></script>
+
+    <link rel="stylesheet" href="Stylesheet/custom.css">
+
+    <script src="Js/main.js"></script>
+    <script src="Js/app.js"></script>
+    <script src="Js/controller.js"></script>
+
+</head>
+<body ng-app="app" ng-controller="myCtrl" ng-keydown="function($event)">
+    
+    <img ng-src="{{src}}" ng-init="src='front.png'" ng-model="car" alt="">
+
+</body>
+</html>
